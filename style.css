@@ -1,15 +1,5 @@
-/*
-=============== 
-Fonts
-===============
-*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*
-=============== 
-Variables
-===============
-*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 :root {
   /* dark shades of primary color*/
@@ -53,11 +43,6 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
 
 *,
 ::after,
@@ -151,11 +136,7 @@ main {
   place-items: center;
 }
 
-/*
-=============== 
-Nav
-===============
-*/
+/*  Nav */
 nav {
   background: var(--clr-white);
   height: 3rem;
@@ -189,11 +170,7 @@ nav a {
 nav a:hover {
   color: var(--clr-primary-5);
 }
-/*
-=============== 
-Container
-===============
-*/
+/*  Container */
 main {
   min-height: calc(100vh - 3rem);
   display: grid;
